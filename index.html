@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Modern Shop — Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">faziology<span class="accent">Shop</span></a>
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-btn" aria-hidden="true">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-ghost" href="#">Login</a>
+        <a class="btn btn-primary" href="#products">Sign up</a>
+      </div>
+    </div>
+  </header>
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <h1>SPECIAL OFFER</h1>
+        <p class="lead">my latest watch</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary large" href="#products">Products</a>
+          <a class="btn btn-outline" href="#about">Learn More</a>
+        </div>
+        <ul class="features-list">
+          <li>free deliverys</li>
+          <li>low prices</li>
+          <li>secure details</li>
+        </ul>
+      </div>
+
+      <div class="hero-media">
+        <div class="card-visual">
+          <img src="./images/image 2.avif" alt="Showcase product image">
+          <div class="price-tag">From <strong>$29</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="products" class="products">
+    <div class="container">
+      <h2 class="section-title">latest watch</h2>
+
+      <div class="products-grid">
+        <article class="product-card">
+          <img src="./images/image 10.jpeg" alt="Product 1">
+          <div class="card-body">
+            <h3>Special watch</h3>
+            <p class="muted">attractive watch</p>
+            <div class="card-row">
+              <span class="price">$29</span>
+              <a class="btn btn-sm" href="#">View</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card blackbox">
+          <img src="./images/image 4.jpeg" alt="Product 2">
+          <div class="card-body">
+            <h3>latest watch</h3>
+            <p class="muted">Special watch</p>
+            <div class="card-row">
+              <span class="price">$129</span>
+              <a class="btn btn-sm btn-outline-light" href="#">View</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="./images/image5.avif" alt="Product 3">
+          <div class="card-body">
+            <h3>Modern watch</h3>
+            <p class="muted">Modern and stylish  watch</p>
+            <div class="card-row">
+              <span class="price">$49</span>
+              <a class="btn btn-sm" href="#">View</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="./images/image7.png" alt="Product 4">
+          <div class="card-body">
+            <h3>black watch</h3>
+            <p class="muted">black and vip watch</p>
+            <div class="card-row">
+              <span class="price">$59</span>
+              <a class="btn btn-sm" href="#">View</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="./images/image1.jpeg" alt="Product 5">
+          <div class="card-body">
+            <h3>new watch</h3>
+            <p class="muted">new design watch</p>
+            <div class="card-row">
+              <span class="price">$39</span>
+              <a class="btn btn-sm" href="#">View</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="./images/image8.webp" alt="Product 6">
+          <div class="card-body">
+            <h3>old style watch</h3>
+            <p class="muted">rare watch</p>
+            <div class="card-row">
+              <span class="price">$89</span>
+              <a class="btn btn-sm" href="#">View</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!--ABOUT-->
+  <section id="about" class="about">
+    <div class="container about-grid">
+      <div class="about-card">
+        <h2>About</h2>
+        <p>We offer premium rolex watches designed for elegance, precision, and timeless style. Each timepiece in our collection reflects luxury, craftsmanship, and trust.</p>
+        <ul>
+          <li>Authentic Quality</li>
+          <li>Premium Designs</li>
+          <li>Trusted Service</li>
+        </ul>
+      </div>
+      <div class="about-stats">
+        <div class="stat">
+          <strong>10k+</strong>
+          <span>Happy customers</span>
+        </div>
+        <div class="stat">
+          <strong>200+</strong>
+          <span>Products</span>
+        </div>
+        <div class="stat">
+          <strong>Free</strong>
+          <span>Shipping over $75</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-left">
+        <h3>Stay in touch</h3>
+        <p class="muted">Sign up for updates and offers.</p>
+        <form class="subscribe-form" onsubmit="return false;">
+          <input type="email" placeholder="Your email" aria-label="Email">
+          <button class="btn btn-primary">Sign up</button>
+        </form>
+      </div>
+
+      <div class="footer-right">
+        <nav class="foot-nav">
+          <a href="#home">Home</a>
+          <a href="#products">Products</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p class="muted small">© 2025 fiazology</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
